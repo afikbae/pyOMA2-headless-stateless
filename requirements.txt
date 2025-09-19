@@ -1,1 +1,6 @@
-numpy\npandas>=2.0.3\nscipy>=1.9.3\npydantic>=2.5.1\ntqdm>=4.66.1\nscikit-learn>=1.3.2
+numpy
+pandas>=2.0.3
+scipy>=1.9.3
+pydantic>=2.5.1
+tqdm>=4.66.1
+scikit-learn>=1.3.2
