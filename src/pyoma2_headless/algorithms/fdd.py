@@ -11,11 +11,11 @@ from __future__ import annotations
 import logging
 import typing
 
-from pyoma2.algorithms.base import BaseAlgorithm
-from pyoma2.algorithms.data.mpe_params import EFDDMPEParams, FDDMPEParams
-from pyoma2.algorithms.data.result import EFDDResult, FDDResult
-from pyoma2.algorithms.data.run_params import EFDDRunParams, FDDRunParams
-from pyoma2.functions import fdd
+from pyoma2_headless.algorithms.base import BaseAlgorithm
+from pyoma2_headless.algorithms.data.mpe_params import EFDDMPEParams, FDDMPEParams
+from pyoma2_headless.algorithms.data.result import EFDDResult, FDDResult
+from pyoma2_headless.algorithms.data.run_params import EFDDRunParams, FDDRunParams
+from pyoma2_headless.functions import fdd
 
 logger = logging.getLogger(__name__)
 
@@ -80,8 +80,6 @@ class EFDD(FDD[EFDDRunParams, EFDDMPEParams, EFDDResult, typing.Iterable[float]]
     """
     Enhanced Frequency Domain Decomposition (EFDD) Algorithm Class.
     """
-
-    method: typing.Literal["EFDD", "FSDD"] = "EFDD"
 
     RunParamCls = EFDDRunParams
     MPEParamCls = EFDDMPEParams

@@ -19,7 +19,7 @@ from sklearn.metrics.pairwise import pairwise_distances
 from sklearn.mixture import GaussianMixture
 from sklearn.preprocessing import power_transform
 
-from pyoma2.functions import gen
+from pyoma2_headless.functions import gen
 
 # =============================================================================
 # CLUSTERING

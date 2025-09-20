@@ -13,9 +13,9 @@ import typing
 
 from pydantic import BaseModel
 
-from pyoma2.algorithms.data.mpe_params import BaseMPEParams
-from pyoma2.algorithms.data.result import BaseResult
-from pyoma2.algorithms.data.run_params import BaseRunParams
+from pyoma2_headless.algorithms.data.mpe_params import BaseMPEParams
+from pyoma2_headless.algorithms.data.result import BaseResult
+from pyoma2_headless.algorithms.data.run_params import BaseRunParams
 
 if typing.TYPE_CHECKING:
     pass

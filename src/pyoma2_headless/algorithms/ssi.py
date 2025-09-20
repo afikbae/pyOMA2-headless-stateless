@@ -16,11 +16,11 @@ import numpy as np
 from scipy import signal, stats
 from tqdm import trange
 
-from pyoma2.algorithms.base import BaseAlgorithm
-from pyoma2.algorithms.data.mpe_params import SSIMPEParams
-from pyoma2.algorithms.data.result import ClusteringResult, SSIResult
-from pyoma2.algorithms.data.run_params import Clustering, FDDRunParams, SSIRunParams
-from pyoma2.functions import clus, fdd, gen, ssi
+from pyoma2_headless.algorithms.base import BaseAlgorithm
+from pyoma2_headless.algorithms.data.mpe_params import SSIMPEParams
+from pyoma2_headless.algorithms.data.result import ClusteringResult, SSIResult
+from pyoma2_headless.algorithms.data.run_params import Clustering, FDDRunParams, SSIRunParams
+from pyoma2_headless.functions import clus, fdd, gen, ssi
 
 logger = logging.getLogger(__name__)
 

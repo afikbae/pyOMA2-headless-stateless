@@ -11,10 +11,10 @@ from __future__ import annotations
 import logging
 import typing
 
-from pyoma2.algorithms.data.mpe_params import pLSCFMPEParams
-from pyoma2.algorithms.data.result import pLSCFResult
-from pyoma2.algorithms.data.run_params import pLSCFRunParams
-from pyoma2.functions import fdd, gen, plscf
+from pyoma2_headless.algorithms.data.mpe_params import pLSCFMPEParams
+from pyoma2_headless.algorithms.data.result import pLSCFResult
+from pyoma2_headless.algorithms.data.run_params import pLSCFRunParams
+from pyoma2_headless.functions import fdd, gen, plscf
 
 from .base import BaseAlgorithm
 

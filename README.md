@@ -24,9 +24,9 @@ For a detailed breakdown of the changes, please see the `refactoring_summary.md`
 
     ```python
     import numpy as np
-    from pyoma2.algorithms import FDD
+    from pyoma2_headless.algorithms import FDD
     # You would typically load your own data here
-    from pyoma2.functions.gen import example_data
+    from pyoma2_headless.functions.gen import example_data
 
     # 1. Get your data and sampling frequency
     Y, U, modal_params = example_data()
